@@ -16,7 +16,7 @@ services:
       - docmost-network
 
   db:
-    image: postgres:18
+    image: postgres:16
     container_name: docmost-db
     environment:
       POSTGRES_DB: docmost
